@@ -4,7 +4,5 @@ from django.utils import timezone
 from .models import item
 
 def itemDetail(request):
-    objs = item.objects.filter(Arrival_Date__lte=timezone.now()).order_by('Arrival_Date')
-    templateName = "itemList.html"
-    context = {"objs": objs}
-    return render(request,templateName,context) 
+
+    return render(request,"itemList.html",{"objs": item.objects.filter(Arrival_Date__lte=timezone.now()).order_by('Arrival_Date')}) 
