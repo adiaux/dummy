@@ -1,0 +1,12 @@
+{% extends "base.html" %} 
+
+{% block title %} Items Arrived {% endblock %}
+
+
+{% block item %} <h1>The arrived Items are </h1>{% endblock %}
+
+{% block content %}
+    {% for obj in objs %}
+        <li>{{ obj }} </li>
+    {% endfor %}
+{% endblock %}
