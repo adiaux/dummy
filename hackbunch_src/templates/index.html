@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Community Hacktoberfest Tracker </title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		 <link href="https://fonts.googleapis.com/css?family=ABeeZee&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Advent+Pro&display=swap" rel="stylesheet"> 
+
+	</head>
+	
+	<style>
+		h1{
+			margin-top: 60px !important; 
+			color:black;
+			font-family: 'ABeeZee', sans-serif;
+		}
+		html{
+			height:100%;
+		}
+		body{
+			height: 100%;
+  			margin: 0;
+			color:black;
+			font-size: 150%;
+			font-family: 'Advent Pro', sans-serif;
+    	    background-image: linear-gradient(to top, #000000, #1b0913, #291023, #321539, #331f53, #343570, #2b4b8e, #0063aa, #008ac8, #00b0dd, #00d6ea, #5ffbf1);
+			background-position: center;
+    	    background-repeat: no-repeat;
+    	    background-size: cover;
+		}
+		.submitButton{
+			margin-top: 12px !important; 
+			text-align:center;
+		}
+	
+
+	</style>
+	<body background="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRN0pyAfqpXL_RbV97WANK3F6M0isVdKltDmGAFTDTTDSYOI8-w">
+		
+		<div class="caption text-center ">
+    		<div class="row justify-content-center align-self-center">	
+				<h1 class="animated  fadeInDown delay-.5s">Community Hacktoberfest Tracker</h1>
+					
+			</div>
+		</div>
+		
+		<form method="POST">
+		<div class="form-group">
+		    <div class="caption text-center ">
+				<label for="text" class="animated  fadeInDown delay-.5s">Enter your GitHub username</label>
+				<div class="container">
+  					<div class="row">
+  				  		<div class="col text-center">
+								<div class="animated  fadeInDown delay-.5s">
+									<input type="text" class="form-control" id="input" name="github-username" placeholder="Enter username" required>
+									<div class="submitButton">
+										<button type="submit" class="btn btn-primary">Submit</button>				
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>	
+			</div>
+		</div>
+		</form>
+
+	<div class="container">
+  		<div class="row">
+    		<div class="col">
+				<div class="caption text-center ">
+					<h1>Upload an image</h1>
+				
+      		<form action="/upload-file" method="POST" enctype="multipart/form-data">
+        		<div class="form-group">
+          			<div class="caption text-center ">	
+						<label>Select image</label>
+					</div>
+          			<div class="custom-file">
+            			<input type=file name="file" id="image"> 
+          			</div>
+        		</div>
+				<div class="submit">
+        			<button type="submit" class="btn btn-primary">Upload</button>
+				</div>
+				</div>
+			</form>
+   			 </div>
+ 		</div>
+	</div>
+
+
+	</body>
+</html>
+	
