@@ -1,0 +1,69 @@
+# Site settings
+title: Krusader
+email: Krusader-devel@kde.org
+git: https://cgit.kde.org/Krusader.git/
+handbook: https://docs.kde.org/trunk5/en/applications/Krusader/index.html
+forum: http://forum.kde.org/viewforum.php?f=227
+description: >
+    Krusader: Twin panel file management for your desktop
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://Krusader.kde.org"
+twitter_username: kde_community
+github_username:  kde
+
+# Build settings
+markdown: kramdown
+theme: jekyll-kde-theme
+sass:
+  style: compressed
+
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+collections:
+  changelogs:
+    output: true
+
+navigation:
+  top:
+    - title: Changelog
+      url: /changelog.html
+    - title: Annoucements
+      url: /annoucements.html
+    - title: Download
+      url: /download.html
+    - title: User support
+      url: /users.html
+    - title: Get Involved
+      url: /get-involved.html
+    - title: Donate
+      url: https://www.kde.org/donate
+  bottom:
+    - name: Community
+      items:
+        - title: Forum.kde.org
+          url: https://forum.kde.org/viewforum.php?f=225
+        - title: Phabricator Development Project
+          url: https://phabricator.kde.org/tag/krusader/
+        - title: CGit Repository Browser
+          url: https://cgit.kde.org/krusader.git/
+    - name: News &amp; Press
+      items:
+        - title: Announcements
+          url: https://www.kde.org/announcements/
+        - title: KDE.news
+          url: https://dot.kde.org/
+        - title: Planet KDE
+          url: https://planetkde.org/
+
+paginate: 3
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
