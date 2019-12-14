@@ -1,0 +1,38 @@
+2.5.0 "Clear Skies"
+=========================
+
+    (this list is incomplete. Please refer to Git log and finished tasks listed at
+    https://phabricator.kde.org/project/board/79 )
+
+    ADDED: actions: Select files with the same name / extension
+
+    CHANGED: disabled build of synchronizer by default, since it is unmaintained -
+             build togglable with cmake variable -DENABLE_SYNCHRONIZER=true|false
+
+    FIXED: [ 143927 ] file search: "s" accelerator is doubled -
+                      new shortcut for "Search in" is ALT+h
+    FIXED: [ 308386 ] Duplicate shortcut on Search window -
+                      new shortcut for "Remote content search" is ALT+n
+    FIXED: [ 206926 ] Search doesn't work in sftp session (it returns too many results)
+    FIXED: [ 269542 ] Krusader search - Containing text still used when disabled
+    FIXED: [ 324737 ] symlinks with a target path length of over 255 do not work
+    FIXED: [ 189943 ] toolbar position settings are not remembered
+    FIXED: [ 316031 ] crash when loading previews
+    FIXED: [ 238672 ] When saving checksums fails, they are lost. No 2nd chance to save elsewhere. 
+    FIXED: [ 315764 ] "application/x-source-rpm" isn't linked to krarc protocol by default
+    FIXED: [ 294816 ] Krusader needs to restart to apply new color scheme to panel
+    FIXED: [ 308727 ] external editor command isn't properly parsed 
+    FIXED: [ 304233 ] empty main view on startup
+    FIXED: [ 315856 ] main view splitter sizes are not restored
+    FIXED: [ 248691 ] incorrect layout / wrong buttons in queue manager
+    FIXED: [ 315357 ] krarc silently fails to display contents of some zip files
+           zip files containing paths with "." as a path component are still not handled,
+           but now krarc reports an error instead silently failing
+    FIXED: [ 310722 ] viewer crash when opening file
+    FIXED: search result view always displays owner and group as "root"
+           (may not work for remote search)
+    FIXED: [ 217711 ] directory chooser dialog does not allow to choose a directory
+    FIXED: [ 309119 ] Wrong "New directory" dialog behavior: can't clear all typed text
+    FIXED: [ 309159 ] Crash in video files preview on F3
+    FIXED: [ 310191 ] krusader still installs locolor icons
+    FIXED: [ 317510 ] icon-size-and-directory-name-mismatch
