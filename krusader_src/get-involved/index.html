@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <title>Krusader - Get Involved</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Krusader is an advanced twin panel (commander style) file manager for KDE Plasma and other desktops in the *nix world, similar to Midnight or Total Commander." />
+    <meta name="keywords" content="krusader, linux, kde, commander, total, norton, file, manager, filemanager, twinpanel, dual, twin, multi, pane, panel, ftp, sftp, fish, samba, mount, archiver, iso, kde commander, linux commander" />
+    <meta name="author" content="Dirk Eschler, eschler (at) gmail (dot) com" />
+    <meta name="publisher" content="Krusader Krew" />
+    <meta name="copyright" content="Copyright 2019, Krusader Krew" />
+    <meta name="robots" content="index,follow" />
+    <meta name="google-site-verification" content="fygXW2nx199WBzR5OMX_8F6c9p6xpH6NOsEAPhkYCpA" />
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../static/CACHE/css/4f63e961488b.css" type="text/css" media="screen, projection" />
+    <!--[if IE]><link rel="stylesheet" type="text/css" href="/static/css/screen-ie.css" media="screen, projection" /><![endif]-->
+    <script type="text/javascript" src="../static/CACHE/js/3414f848e7c7.js"></script>
+</head>
+
+<body id="page-get-involved" class="page ">
+    <div id="header-container">
+        <div id="header">
+            <a href="../index.html"><img src="../static/img/krusader_logo.png" alt="Krusader Logo" /></a>
+        </div>
+    </div>
+    <div id="navbar-container" class="clearfix">
+        <div id="navbar">
+            <ul>
+                <li id="nav-home-link"><a href="../index.html"><span>~</span></a></li>
+                <li><a href="../get-krusader/index.html" title=""><span>Get Krusader</span></a></li>
+                <li class=" nav-current nav-current-path"><a href="../get-involved/index.html" title="" class="nav-current"><span>Get Involved</span></a></li>
+                <li><a href="../report-bugs/index.html" title=""><span>Report Bugs</span></a></li>
+                <li><a href="../documentation/index.html" title=""><span>Documentation</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="stage">
+        <div id="main-container">
+            <div id="main">
+                <div id="sidebar-container">
+                    <div id="sidebar">
+                        <ul class="level-2">
+                            <li class="first"><a href="../get-involved/mailing-lists/index.html"><span>Mailing Lists</span></a></li>
+                            <li><a href="../get-involved/contributors/index.html"><span>Contributors</span></a></li>
+                            <li><a href="https://l10n.kde.org/stats/gui/trunk-kf5/po/krusader.po/" class="external"><span>Translation Status</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="headline-container">
+                    <div id="headline">
+                        <h1>Participate&nbsp;<br/>in&nbsp;Krusader&nbsp;development</h1></div>
+                </div>
+                <div id="content">
+                    <p>Check out our developer site on <a class="external" href="https://phabricator.kde.org/project/view/79/">Phabricator</a> where all development is taking place (you can log in with a <a class="external" href="https://identity.kde.org/">KDE Identity account</a>).</p>
+                    <p><!--Krusader is developed as part of <a class="external" href="https://www.kde.org/applications/utilities/krusader/">KDE Utilities</a>.-->
+                    You can fetch the source from the KDE Git repository.</p>
+                    <p>
+                        <a href='https://build.kde.org/job/Extragear/job/krusader/job/stable-kf5-qt5%20SUSEQt5.12/'>
+                            <img src='https://build.kde.org/buildStatus/icon?job=Extragear/krusader/stable-kf5-qt5 SUSEQt5.12'>
+                        </a>
+                    </p>
+                    <h3>Checkout (Anonymous)</h3><pre><code>$ git clone git://anongit.kde.org/krusader
+</code></pre>
+                    <h3>Checkout (Developer)</h3><pre><code>$ git clone git@git.kde.org:krusader.git
+</code></pre>
+                    <p class="important"><span class="normal"><b>Note:</b></span> Refer to the <a class="external" href="https://community.kde.org/Sysadmin/GitKdeOrgManual">GitKdeOrgManual</a> for details.</p>
+                    <h3>Installation</h3>
+                    <pre><code>$ cd krusader
+$ mkdir -v build && cd build
+$ cmake -DCMAKE_INSTALL_PREFIX=/usr/ ..
+$ make
+# At the beginning of the following command: `sudo` must be added if Kubuntu, Ubuntu, Debian, or similar is being used.
+$ su -c "make install"
+</code></pre>
+                    <p class="important"><span class="normal"><b>Note:</b></span> For the advanced and latest installation instructions please refer to the <a class="external" href="https://commits.kde.org/krusader?path=INSTALL">INSTALL</a> file in the Krusader sources.</p>
+                    <p class="important"><span class="normal"><b>Note:</b></span> On a multi cpu/core system you might want to speed up the compile process by increasing the number of jobs (e.g. "make -j4").</p>
+                    <h3>Localization</h3>
+                    <p>Due to the layout of <a class="external" href="https://websvn.kde.org/trunk/l10n-kf5/">KDE's repository</a>, translations aren't part of the checkout. 
+                    There is a list of translation files in the <a class="external" href="https://l10n.kde.org/stats/gui/trunk-kf5/po/krusader.po/index.html">10n.kde.org Krusader page</a>. In that list anyone can look for his desired translation file, hover the mouse cursor over its link, see its tooltip to look up the appropriate language code (which is shown between parentheses, e.g. if on the tooltip it's seen "German (de)" that means that the language code is: de), click on the link (in order to download the proper krusader.po file), and execute:</p><pre><code>$ msgfmt krusader.po -o krusader.mo
+# At the beginning of the following command: `sudo` must be added if Kubuntu, Ubuntu, Debian, or similar is being used.                    
+# Replace &lt;XX&gt; with the previously found language code (e.g. de for German). 
+$ su -c "cp krusader.mo /usr/share/locale/&lt;XX&gt;/LC_MESSAGES/"
+</code></pre>
+                    <h2>Building a git snapshot with translations</h2>
+                    <p>In order to build a snapshot which includes translations KDE's <b>releaseme</b> script can be used. Here is how it works:</p>
+                    <pre><code>$ git clone git://anongit.kde.org/releaseme
+$ releaseme/tarme.rb --version git`date +%Y%m%d` --origin trunk krusader
+</code></pre>
+                    <p class="important"><span class="normal"><b>Note:</b></span> You need to have ruby installed to run the script.</p>
+                    <p>The script will create a tarball in the same directory which can be installed as usual:</p><pre><code>$ tar xjvf krusader-git`date +%Y%m%d`.tar.bz2
+$ cd krusader-git`date +%Y%m%d`
+$ cmake -DCMAKE_INSTALL_PREFIX=/usr/
+$ make
+$ su -c "make install"</code></pre></div>
+            </div>
+        </div>
+        <div id="metabar-top" class="clearfix"></div>
+        <div id="metabar-container">
+            <div id="metabar"></div>
+        </div>
+        <div id="footer-container">
+            <div id="footer">
+                <ul>
+                    <li><a class="external" href="https://bugs.kde.org/buglist.cgi?bug_file_loc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_id=&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;bug_status=NEEDSINFO&amp;bug_status=VERIFIED&amp;bugidtype=include&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;email1=&amp;email2=&amp;emailassigned_to1=1&amp;emailassigned_to2=1&amp;emailcc2=1&amp;emailreporter2=1&amp;emailtype1=substring&amp;emailtype2=substring&amp;field-1-0-0=product&amp;field-1-1-0=bug_status&amp;field0-0-0=noop&amp;keywords=&amp;keywords_type=allwords&amp;long_desc=&amp;long_desc_type=substring&amp;product=krusader&amp;query_format=advanced&amp;remaction=&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;type-1-0-0=anyexact&amp;type-1-1-0=anyexact&amp;type0-0-0=noop&amp;value-1-0-0=krusader&amp;value-1-1-0=UNCONFIRMED%2CNEW%2CASSIGNED%2CREOPENED%2CNEEDSINFO%2CVERIFIED&amp;value0-0-0=&amp;votes=&amp;order=bugs.bug_id%20desc&amp;query_based_on=">Bugs.kde.org</a></li>
+                    <li><a class="external" href="https://phabricator.kde.org/tag/krusader/">Phabricator Development Project</a></li>
+                    <li><a class="external" href="https://cgit.kde.org/krusader.git/">CGit Repository Browser</a></li>
+                    <li><a href="https://forum.kde.org/viewforum.php?f=225">Forum.kde.org</a></li>
+                </ul>
+                <p>Web development by Krusader Krew &copy; 2019 - <a href="../about/index.html">About</a></p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-3604157-1");
+            pageTracker._setDomainName(".krusader.org");
+            pageTracker._trackPageview();
+        } catch (err) {}
+    </script>
+</body>
+
+</html>

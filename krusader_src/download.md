@@ -42,8 +42,6 @@ sources:
                         <a class="external" href="http://www.pclinuxos.com/">PCLinuxOS</a>,&nbsp;
                         <a class="external" href="http://www.altlinux.ru/">ALT Linux</a>,&nbsp;
                         <a class="external" href="http://www.sourcemage.org/">Source Mage</a></p>
-        <h1>Extensions</h1>
-        <p>Krusader can be extended with custom add-ons called <b>User Actions</b>. You can find existing extensions and share your own ones in the <a     class="external" href="https://store.kde.org/browse/cat/370/ord/top/">KDE store</a>. Note that all add-ons there are unofficial, use them with caution.</p>
 
 ---
 
@@ -55,7 +53,7 @@ sources:
                             <div class="clearfix">
                                 <div class="download-button">
                                     <div class="button">
-                                        <div class="button-inner"><a class="stable" href="https://download.kde.org/stable/krusader/2.7.2/krusader-2.7.2.tar.xz.mirrorlist">Download stable version<br/><span class="release"><span class="important">Release</span>: 2.7.2</span></a></div> 
+                                        <div class="button-inner"><a class="stable" href="https://download.kde.org/stable/krusader/2.7.2/krusader-2.7.2.tar.xz.mirrorlist" style="color: black;">Download stable version<br/><span class="release"><span class="important">Release</span>: 2.7.2</span></a></div> 
                                     </div>
                                     <p class="release-meta"><a href="../release/2.7.2/release_notes.txt">Release notes</a> | <a href="../release/2.7.2/changelog.txt">Changelog</a></p>
                                 </div>
@@ -65,9 +63,9 @@ sources:
                         </div>
                         <div id="branch-unstable" class="branch">
                             <div class="clearfix">
-                                <div class="download-button">
+                                <div class="download-button" >
                                     <div class="button">
-                                        <div class="button-inner"><a class="devel" href="https://phabricator.kde.org/source/krusader/clone/">Latest Git version<br /><span class="release"><span class="important">Development version</span>: 2.8.0-dev</span></a></div>
+                                        <div class="button-inner"><a class="devel" href="https://phabricator.kde.org/source/krusader/clone/" style="color: black;">Latest Git version<br /><span class="release"><span class="important">Development version</span>: 2.8.0-dev</span></a></div>
                                     </div>
                                 </div>
                                 <p class="release-desc">This version is a (possibly) unstable but may include new features<br/> and bug fixes that haven't been released yet.</p>
@@ -89,3 +87,10 @@ sources:
     </tr>
 {% endfor %}
 </table>
+
+<div id="metabar-container">
+            <div id="metabar">
+                <h3>Extensions</h3>
+                <p>Krusader can be extended with custom add-ons called <b>User Actions</b>. You can find existing extensions and share your own ones in the <a class="external" href="https://store.kde.org/browse/cat/370/ord/top/">KDE store</a>. Note that all add-ons there are unofficial, use them with caution.</p>
+            </div>
+        </div>
