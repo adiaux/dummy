@@ -1,3 +1,0 @@
------ 2.7.2 Peace of Mind -----
-
-Bug fix release. See ChangeLog.

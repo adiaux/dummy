@@ -1,5 +1,6 @@
-PATH
-  remote: ../..
+GIT
+  remote: https://invent.kde.org/websites/jekyll-kde-theme.git
+  revision: 0c9ab538f47befcb083496db2c9668ccbdf36321
   specs:
     jekyll-kde-theme (0.4.0)
       jekyll (~> 3.8)

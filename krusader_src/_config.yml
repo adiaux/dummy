@@ -1,9 +1,11 @@
 # Site settings
 title: Krusader
 email: Krusader-devel@kde.org
-git: https://cgit.kde.org/Krusader.git/
-handbook: https://docs.kde.org/trunk5/en/applications/Krusader/index.html
+git: https://github.com/KDE/krusader
 forum: http://forum.kde.org/viewforum.php?f=227
+bugsite: https://bugs.kde.org/buglist.cgi?bug_file_loc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_id=&bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;bug_status=NEEDSINFO&amp;bug_status=VERIFIED&bugidtype=include&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;email1=&amp;email2=&amp;emailassigned_to1=1&amp;emailassigned_to2=1&emailcc2=1&amp;emailreporter2=1&amp;emailtype1=substring&amp;emailtype2=substring&amp;field-1-0-0=product&amp;field-1-1-0=bug_status&field0-0-0=noop&amp;keywords=&amp;keywords_type=allwords&amp;long_desc=&amp;long_desc_type=substring&amp;product=krusader&query_format=advanced&amp;remaction=&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;type-1-0-0=anyexact&amp;type-1-1-0=anyexact&type0-0-0=noop&amp;value-1-0-0=krusader&amp;value-1-1-0=UNCONFIRMED%2CNEW%2CASSIGNED%2CREOPENED%2CNEEDSINFO%2CVERIFIED&amp;value0-0-0=&amp;votamp;order=bugs.bug_id%20desc&amp;query_based_on=">
+bugfaq: https://docs.kde.org/trunk5/en/extragear-utils/krusader/faq_general.html
+
 description: >
     Krusader: Twin panel file management for your desktop
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -32,10 +34,12 @@ navigation:
   top:
     - title: Download
       url: /download.html
-    - title: User support
-      url: /users.html
     - title: Get Involved
       url: /get-involved.html
+    - title: Report Bugs
+      url: /bugs.html
+    - title: Documentation
+      url: /documentation.html
     - title: Donate
       url: https://www.kde.org/donate
   bottom:
